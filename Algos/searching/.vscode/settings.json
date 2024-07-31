@@ -1,0 +1,5 @@
+{
+    "C_Cpp.default.cStandard": "c99",
+    "C_Cpp.autocompleteAddParentheses": false,
+    "C_Cpp.default.compilerPath": ""
+}

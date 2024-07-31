@@ -1,0 +1,5 @@
+In Insertion sort, the elements are compared to the next element.
+if the next element is greater, then it is inserted at its appropriate place.
+Find the minimum element.
+Swap the number until the left element of current minimum element is smaller than the current minimum number.
+
