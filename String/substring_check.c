@@ -8,6 +8,9 @@ int issubstring(char *str1, char *str2){
         return 0;
     }
     int i = 0, j = 0;
+    printf("str1sz = %d\n", str1sz);
+    printf("str2sz = %d\n", str2sz);
+    printf("str1sz - str2sz = %d\n", str1sz - str2sz);
     for(i = 0; i <= str1sz - str2sz; i++){
         for(j = 0; j < str2sz; j++){
             if(str1[i+j] != str2[j]){

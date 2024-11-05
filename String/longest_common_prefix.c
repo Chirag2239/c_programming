@@ -17,7 +17,7 @@ char *largestCommonPrefix(char **str, int size){
     return prefix;
 }
 int main(){
-    char *strs[] = {"flower", "flow", "flight"};
+    char *strs[] = {"flower", "flight", "flow"};
     int strssize = sizeof(strs)/sizeof(strs[0]);
     printf("%d\n", strssize);
     char *prefix = largestCommonPrefix(strs, strssize);

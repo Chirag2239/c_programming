@@ -16,14 +16,16 @@ int fibonacci(int num){
         return num;
     }
     for(i = 2; i <= num; i++){
+        printf("%d ", b);
         c = a + b;
         a = b;
         b = c;
     }
+    printf("\n");
     return b;
 }
 
-int rec_fibo(num){
+int rec_fibo_sum(num){
     if(num <= 1){
         return num;
     }
@@ -35,7 +37,7 @@ int main()
     printf("Reverse Number\n");
     int result = fibonacci(10);
     printf("%d\n", result);
-    result = rec_fibo(10);
+    result = rec_fibo_sum(10);
     printf("%d\n", result);
     return 0;
 }
