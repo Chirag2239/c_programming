@@ -1,6 +1,6 @@
 Quick select algorithm:
 
-Intention: select the pivot and set the lowest elements to the right of pivot and lowest to the right.
+Intention: select the pivot and set the lowest elements to the right of pivot and highest to the left.
 
 Procedure:
 
